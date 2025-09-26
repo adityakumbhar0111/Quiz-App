@@ -1,0 +1,257 @@
+
+.home-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f4f8;
+  padding: 20px;
+}
+
+.home-box {
+  background-color: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  width: 100%;
+  text-align: center;
+}
+
+.home-title {
+  font-size: 2rem;
+  color: #1f2937;
+  margin-bottom: 10px;
+}
+
+.home-subtitle {
+  font-size: 1rem;
+  color: #4b5563;
+  margin-bottom: 20px;
+}
+
+/* Home.css */
+
+.home-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f9fafb;
+  padding: 20px;
+}
+
+.home-box {
+  background-color: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  width: 100%;
+  text-align: center;
+}
+
+.home-title {
+  font-size: 2rem;
+  color: #1f2937;
+  margin-bottom: 10px;
+}
+
+.home-subtitle {
+  font-size: 1rem;
+  color: #4b5563;
+  margin-bottom: 20px;
+}
+
+.home-instructions {
+  text-align: left;
+  margin: 20px 0;
+  color: #374151;
+  background-color: #e5e7eb;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.home-instructions h3 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: #1f2937;
+}
+
+.home-instructions ul {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 10px;
+}
+
+.home-instructions li {
+  font-size: 16px;
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.home-instructions li svg {
+  color: #4ade80; /* Green check icon */
+}
+
+.home-checkbox {
+  margin: 20px 0;
+  text-align: left;
+  font-size: 14px;
+  color: #374151;
+}
+
+.home-checkbox input {
+  margin-right: 8px;
+}
+
+.home-button {
+  padding: 12px 24px;
+  background-color: #3b82f6;
+  color: white;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.home-button:hover {
+  background-color: #2563eb;
+}
+
+
+/* Home.css */
+
+/* Styling the Home container */
+.home-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f9fafb;
+  padding: 20px;
+}
+
+/* The box containing all elements on the home page */
+.home-box {
+  background-color: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Title and subtitle styles */
+.home-title {
+  font-size: 2rem;
+  color: #1f2937;
+  margin-bottom: 10px;
+}
+
+.home-subtitle {
+  font-size: 1rem;
+  color: #4b5563;
+  margin-bottom: 20px;
+}
+
+/* Instructions Box Styling */
+.home-instructions {
+  text-align: left;
+  margin: 20px 0;
+  color: #374151;
+  background-color: #e5e7eb;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.home-instructions h3 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: #1f2937;
+}
+
+.home-instructions ul {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 10px;
+}
+
+.home-instructions li {
+  font-size: 16px;
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.home-instructions li svg {
+  color: #4ade80; /* Green check icon */
+}
+
+/* Modern Checkbox Styling */
+.home-checkbox {
+  margin: 20px 0;
+  text-align: left;
+  font-size: 14px;
+  color: #374151;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.home-checkbox input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
+  border: 2px solid #3b82f6;
+  appearance: none;
+  background-color: #f9fafb;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+/* Change color of the checkbox when checked */
+.home-checkbox input[type="checkbox"]:checked {
+  background-color: #3b82f6;
+  border-color: #2563eb;
+}
+
+.home-checkbox input[type="checkbox"]:checked::before {
+  content: "✔";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  color: white;
+}
+
+.home-checkbox label {
+  font-size: 14px;
+  color: #374151;
+  cursor: pointer;
+}
+
+/* Button Styling */
+.home-button {
+  padding: 12px 24px;
+  background-color: #3b82f6;
+  color: white;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.home-button:hover {
+  background-color: #2563eb;
+}

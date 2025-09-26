@@ -1,0 +1,76 @@
+/* Result.css */
+
+.result-container {
+  max-width: 700px;
+  margin: 60px auto;
+  padding: 30px;
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.result-title {
+  font-size: 26px;
+  font-weight: bold;
+  color: #111827;
+  margin-bottom: 30px;
+}
+
+.result-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  text-align: left;
+}
+
+.result-card {
+  background: #f9fafb;
+  padding: 16px 20px;
+  border-radius: 10px;
+  border-left: 5px solid #3b82f6;
+}
+
+.question {
+  font-weight: 600;
+  margin-bottom: 6px;
+  color: #111;
+}
+
+.correct {
+  color: #16a34a;
+  font-weight: 500;
+}
+
+.incorrect {
+  color: #dc2626;
+  font-weight: 500;
+}
+
+.correct-answer {
+  color: #6b7280;
+  font-size: 14px;
+}
+
+.result-btn {
+  margin-top: 30px;
+  padding: 12px 24px;
+  background-color: #3b82f6;
+  color: white;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.result-btn:hover {
+  background-color: #2563eb;
+}
+
+.result-message {
+  font-size: 18px;
+  margin-bottom: 16px;
+  color: #374151;
+}
