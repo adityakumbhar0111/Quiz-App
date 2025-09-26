@@ -1,12 +1,65 @@
-# React + Vite
+<h3>🧩 Quiz App (React)</h3>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An interactive Quiz Application built with React (Vite). Users can answer multiple-choice questions, view their scores, and retry the quiz. This project demonstrates concepts like state management, props, conditional rendering, and routing.
 
-Currently, two official plugins are available:
+🕹️ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🎯 Multiple-choice quiz questions
 
-## Expanding the ESLint configuration
+📊 Score calculation after completion
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🔄 Option to restart the quiz
+
+🧭 Navigation between questions
+
+⚡ Fast & optimized with Vite
+
+📱 Responsive design for desktop & mobile
+
+💻 Tech Stack
+
+React (UI components & state management)
+
+Vite (fast build tool & bundler)
+
+JavaScript (ES6+)
+
+CSS3 (styling)
+
+🚀 Run Locally
+
+Clone the repository:
+
+git clone https://github.com/<your-username>/Quiz_App.git <br>
+cd Quiz_App
+
+
+Install dependencies:
+
+npm install
+
+
+Start development server:
+
+npm run dev
+
+
+Open in browser:
+
+http://localhost:5173
+
+📦 Build for Production
+npm run build <br>
+npm run preview
+
+✨ Future Improvements
+
+Add timer per question
+
+Fetch questions from an API instead of static data
+
+Add categories & difficulty levels
+
+Store high scores in local storage or a database
+
+Dark / Light theme toggle
